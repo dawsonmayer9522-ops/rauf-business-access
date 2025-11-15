@@ -98,4 +98,4 @@ cp .env.local.example .env.local
 * The Facebook user access token is stored in a signed, HttpOnly cookie (`fb_user_token`) and never sent to the client directly. All Graph API calls are made via the server‑side API routes.
 * If a user is not authenticated (missing or expired token), API routes return a 401 and the frontend automatically redirects back to the home page.
 * The UI uses a modern dashboard shell with a persistent sidebar and top bar. Step call‑outs and breadcrumbs help guide you through selecting a business, selecting a page and subscribing to page metadata.
-* Feel free to adjust colours and fonts in `tailwind.config.js` and `app/globals.css` to more closely match your brand.
+* Feel free to adjust colours and fonts in `tailwind.config.js` and `app/globals.css` to more closely match your brand. update
